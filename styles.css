@@ -1,0 +1,53 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: Arial, sans-serif;
+  background-color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+    
+}
+.card{
+  background-color: white;
+  border:1px solid #ddd;
+  width: 320px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px ;
+  overflow: hidden;
+ 
+ 
+}
+
+.card-image {
+  width: 300px;
+  height: auto;
+}
+h1{
+  margin-bottom: 10px;
+    
+}
+.italic-text{
+  font-style: italic;
+  margin-bottom: 16px; 
+  font-size: 10px;
+}
+.card-content{
+  margin-top: 16px;  
+  border: 2px solid #ddd;
+  padding: 5px;
+  font-size: 14px; 
+ 
+}
+.rottie{
+  margin-top: 10px;  
+  
+}
+
